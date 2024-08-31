@@ -1,0 +1,46 @@
+name: budget_saver
+description: A money management app to help users track expenses and manage budgets.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.0.5
+
+  # Charts and graphs
+  fl_chart: ^0.36.0
+
+  # Local storage
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.9
+
+  # Form validation and input fields
+  flutter_form_builder: ^8.0.0
+
+  # JSON serialization/deserialization
+  json_annotation: ^4.8.0
+  json_serializable: ^6.7.0
+
+  # HTTP requests
+  http: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # JSON code generation
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/ # Add your images here
+
+
+  # Optional: include additional localization, platform-specific configuration, etc.
